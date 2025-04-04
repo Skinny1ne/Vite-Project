@@ -1,50 +1,58 @@
-/* Reset default styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Set background color */
+
 body {
-    background-color: #ff5733;
+    background-color : #4175f8;
     font-family: Arial, sans-serif;
     color: white;
     text-align: center;
-    padding: 20px;
+    
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-/* Navigation bar styles */
+
 .navbar {
-    background-color: black;
-    display: flex;               /* Makes navbar items flexible */
-    justify-content: center;     /* Centers links */
-    gap: 600px;                   /* Space between links */
-    padding: 15px 0;
-    margin: 15px;             /* Padding inside navbar */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    gap: 40px;  
+    padding: 12px 0;
 }
 
-/* Styling for navbar links */
+
 .navbar a {
-    color: white;               /* Makes links visible */
-    text-decoration: none;      /* Removes underline */
-    font-size: 18px;            /* Adjusts font size */
-    padding: 10px 15px;         /* Clickable area */
-    transition: 0.3s ease; 
-    margin: 15px;     /* Smooth hover effect */
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 9px 13px;
+    transition: 0.3s ease;
 }
 
-/* Hover effect */
+
 .navbar a:hover {
-    background-color: black;
-    color: orange;
+    background-color: orange;
+    color: black;
     border-radius: 5px;
 }
 
-/* Footer styling */
+
+main {
+    flex: 1; 
+    padding: 20px;
+}
+
+
 footer {
-    margin-top: 20px;
+    background-color: #fffefe;
+    color: black;
     padding: 10px;
-    background-color: #222;
-    color: white;
+    text-align: center;
 }
